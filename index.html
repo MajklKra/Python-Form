@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Moje Stránka</title>
+        <link rel="stylesheet" href="styles.css">
+        
+        <style>
+            @media screen and (max-width: 300px) 
+            {
+
+                #d1{
+                    width:200px;margin: 1rem auto;
+                }
+                 
+            
+                body{
+                 background-color: green;
+                  display: flex; flex-direction: column; justify-content: center; align-items: center; 
+                 }  
+            }
+
+            @media screen and (min-width: 301px)and (max-width: 400px) 
+            {
+
+                    #d1{
+                        width:200px;margin: 1rem auto;
+                    }
+            
+                    body{
+                     background-color: purple;
+                      display: flex; flex-direction: column; justify-content: center; align-items: center; 
+                     }  
+            }
+
+
+            @media screen and (min-width: 401px) and (max-width: 575px) 
+            {
+                #d1{
+                    width:200px;margin: 1rem auto;
+                }
+
+            
+                body{
+                 background-color: blue;
+                  display: flex; flex-direction: column; justify-content: center; align-items: center; 
+                 }  
+            }
+
+            @media screen and (min-width: 576px) and (max-width: 767px) 
+            {
+                    #d1{
+                        width:200px;margin: 1rem auto;
+                    }
+            
+                    body{
+                     background-color: white;
+                      display: flex; flex-direction: column; justify-content: center; align-items: center; 
+                     }  
+            }
+
+            @media screen and (min-width: 767px) and (max-width: 991px) 
+            {
+
+                #d1{
+                    width:200px;margin: 1rem auto;
+                }
+            
+                 body{
+                  background-color: orange;
+                   display: flex; flex-direction: column; justify-content: center; align-items: center; 
+                  }  
+            }
+
+            @media screen and (min-width: 992px) and (max-width: 1199px) 
+            {
+
+                #d1{
+                    width:200px;margin: 1rem auto;
+                }
+                
+                body{
+                 background-color: yellow;
+                  display: flex; flex-direction: column; justify-content: center; align-items: center; 
+                 }  
+            }
+
+            @media screen and (min-width: 1200px)
+            {
+
+                    #d1{
+                        width:200px;margin: 1rem auto;
+                    }
+            
+                 body{
+                 background-color: red;
+                  display: flex; flex-direction: column; justify-content: center; align-items: center; 
+                 }    
+            }
+        </style>
+        
+    </head>
+    <body style="background-color:antiquewhite">
+        <header>
+            <h1><b>Vítejte na mé stránce</b></h1>
+        </header>
+        <main>
+            <p style="font-style: italic;">Toto je ukázková stránka vytvořená pomocí Pythonu.</p>
+            <div id="d1" class="container" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 3rem;"><form action="" method="" style=""><label for="fname" style="margin-top: 1rem; margin-right: 1rem;"> Křestní&nbspjméno: </label><input type="text" id="fname" name="fname" placeholder="Křestni jmeno" value="Michal" style="width:100%; margin-right: 1rem; margin-bottom: 1rem;"><label for="lname" style="margin-top: 1rem; margin-right: 1rem;"> Příjmení: </label><input type="text" id="lname" name="lname" placeholder="Příjmení:" value="Kraninger" style="width:100%; margin-bottom: 1rem;"><label for="jobs" style="margin-top: 1rem; margin-right: 1rem;"> Pracovní pozice: </label><select name="jobs" id="jobs" style="margin-bottom: 1rem; width:100%"><option value="IT">Programátor</option><option value="SAF">Technik BOZP</option><option value="TEA">Učitel</option><option value="UN">Nezaměstnaný</option></select><label for="a1" style="margin-top: 1rem; margin-right: 1rem;"> Odkaz: </label><a href="http://www.majkl.jecool.net/" style="display:block;" id = "a1" >Navštivte Majkl.jecool.net!</a><img src="http://www.majkl.jecool.net/images/foto.jpg" alt="Me" width="200px" height="" style="display:block; margin: 3rem auto; border-radius: 5px;"><input type="submit" id="s" name="s" placeholder="Submit" value="Submit" style="display:block;margin: 1rem auto; width:100px; height:40px;"></form></div>
+
+        </main>
+        <footer>
+            <p>&copy; 2024 Michal Kraninger</p>
+        </footer>
+    </body>
+    </html>
+    
